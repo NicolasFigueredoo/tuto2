@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="canvas.css">
+    <title>Dibujando con flechas</title>
+  </head>
+  <body>
+
+  <h1>DIBUJOS</h1>
+
+<div class="proyecto">
+    <div id="fondo">
+        <label class="cajas" for="colorlinea">Color de la linea</label>
+        <input type="color" name="colorlinea"  id="caja_de_color" >
+        <label class="cajas" for="grosor">Grosor de la linea</label>
+        <input type="range" name="grosor" id="rangogrosor"  min="1" max="100" value="1">
+        <input type="button" value="Reset">
+    </div>
+        
+     
+
+     <canvas width="600" height="400" id="area_de_dibujo"></canvas>
+
+</div>
+    <script src="codigocreador.js"></script>
+  </body>
+</html>
